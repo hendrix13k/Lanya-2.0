@@ -34,6 +34,7 @@ client.lavalink = new LavalinkManager({
       host: process.env.LL_HOST,
       port: parseInt(process.env.LL_PORT, 10),
       id: process.env.LL_NAME,
+      secure: true,
     },
   ],
   sendToShard: (guildId, payload) =>
